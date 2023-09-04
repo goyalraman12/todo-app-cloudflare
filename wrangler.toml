@@ -1,6 +1,9 @@
 name = "todo-cloudflare"
 main = "src/worker.js"
 compatibility_date = "2023-08-21"
+kv_namespaces = [
+    { binding = "MY_FIRST_KV", id = "d760b87335f649c7a71ac43d398f5857",preview_id = "d760b87335f649c7a71ac43d398f5857" }
+]
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
